@@ -19,26 +19,32 @@
 h1{
     font: var(--h1);
     margin-top: 8px;
+    margin-bottom: 2px;
 }
 h2{
     font: var(--h2);
     margin-top: 8px;
+    margin-bottom: 2px;
 }
 h3{
     font: var(--h3);
     margin-top: 8px;
+    margin-bottom: 2px;
 }
 p{
     font: var(--p);
     margin-top: 8px;
+    margin-bottom: 2px;
 }
 p1{
     font: var(--p1);
     margin-top: 8px;
+    margin-bottom: 2px;
 }
 p2{
     font: var(--p2);
     margin-top: 8px;
+    margin-bottom: 2px;
 }
 ul{
     display: flex;
@@ -47,7 +53,8 @@ ul{
 }
 li{
     display: flex;
-    margin-left: 10px;
+    align-items: center;
+    margin-left: 30px;
 }
 html{
     scroll-behavior: smooth;
@@ -55,8 +62,8 @@ html{
 
 body{
     font-family: var(--ff);
-    padding:0px;
     margin: auto;
+    padding: 0;
     background-color: var(--colorprimary);
     color: var(--colorsecondary);
 }
@@ -66,13 +73,21 @@ body{
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    flex-wrap: wrap;
 }
 .name{
     display: flex;
-    gap: 20px;
     align-items: center;
+    gap: 20px;
 }
-.banner_content{
-    flex-direction: row;
+.main{
+    display: flex;
+    margin: auto;
+    max-width: 1125px;
+    padding: 8px;
+    border: 1px solid black;
+    flex-direction: column;
+    background-color: #05f903;
 }
+
 
