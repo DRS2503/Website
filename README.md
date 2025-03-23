@@ -24,3 +24,6 @@ Divided into sections. Colors are temporary to seperate the different parts of t
 - personal section at the end with clubs, and hobbies
   - VP of Smash Club
   - Intrumural Sports
+- Final
+  - Make color scheme consistant
+  - any changes needed to make it look nice
